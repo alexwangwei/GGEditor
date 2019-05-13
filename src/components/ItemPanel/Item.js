@@ -34,7 +34,7 @@ class Item extends React.Component {
 
     return (
       <div style={{ cursor: 'pointer' }} onMouseDown={this.handleMouseDown}>
-        {src ? <img src={src} alt={shape} draggable={false} /> : children}
+        {src ? <img src={src} alt={shape} draggable={true} /> : children}
       </div>
     );
   }
